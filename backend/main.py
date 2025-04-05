@@ -1,7 +1,7 @@
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
-from dark_mode import convert_pdf_to_dark_mode
+from backend.dark_mode import convert_pdf_to_dark_mode
 from io import BytesIO
 
 app = FastAPI()
